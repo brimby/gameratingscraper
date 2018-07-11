@@ -4,6 +4,16 @@ When the script gameratingscraper.py is run it crawls http://gamefaqs.com and re
 quality ratings, difficulty ratings, and game length estimations for every game
 on the website. It then records the values to a local MySQL database.
 
+## Installation and setup
+
+Clone the repository to your local system. Run `pip install` in the directory to
+get dependencies installed. Make sure you have MySQL installed wherever you plan
+to save the data to db. If MySQL is local then the credentials are already set up
+for you, otherwise you will need to edit them in commit_scrapings.py.
+
+Now, run gameratingscraper.py. Don't worry, all necessary DBs and tables will
+be created automatically.
+
 ## Roadmap
 
 The plan is to crawl other sites besides gamefaqs and combine the ratings together,
