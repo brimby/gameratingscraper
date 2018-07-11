@@ -1,4 +1,4 @@
-#Game Rating Scraper
+# Game Rating Scraper
 
 When the script gameratingscraper.py is run it crawls http://gamefaqs.com and retrieves
 quality ratings, difficulty ratings, and game length estimations for every game
